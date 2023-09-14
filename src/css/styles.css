@@ -1,0 +1,178 @@
+.header {
+  background-color: rgb(47, 131, 102)
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.color-fondo {
+  background-color: rgb(66, 171, 203);
+}
+
+.boton {
+  background-color: aliceblue;
+}
+
+.imagenes {
+  float: left;
+  width: 50px;
+  margin: 10px 40px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: start;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-50{
+  width: 50%;
+}
+
+.w-33 {
+  width: 33%;
+}
+
+.min-w-28 {
+  min-width: 28%;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.gap-\[2\%\] {
+  gap: 2%;
+}
+
+.gap-y-\[5\%\] {
+  row-gap: 5%;
+}
+
+.gap-y-8 {
+  row-gap: 2em;
+}
+
+.gap-x-4 {
+  column-gap: 1em;
+}
+
+.rec {
+  background-color: rgb(7, 182, 230);
+  border: 1px solid black;
+  padding: 2em;
+  border-radius: 1em;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+/*CAROUSEL*/
+
+ul,
+li {
+  list-style: none;
+  white-space: nowrap;
+}
+
+li {
+  display: inline;
+}
+
+img {
+  margin-top: -16px;
+}
+
+/* Main container */
+
+.main-container {
+  width: 720px;
+  height: 480px;
+  margin: 0 auto;
+}
+
+/* Slider container */
+.slider-container {
+  position: relative;
+  height: 100%
+}
+
+/* dots carrusel */
+.dots-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dot-container-item {
+  margin: 8px 3px;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Arrows */
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 32px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 32px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.container-images {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+
+div.active {
+  background: #ccc;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
